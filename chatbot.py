@@ -14,3 +14,7 @@ while keep_prompting:
       
       response=openai.Completion.create(engine='text-davinci-003', prompt=prompt, max_tokens=200)
       print(response['choices'][0]['text'])
+
+      #Run the following command to install the official Python bindings: pip install openai
+
+      #Run the following command in your Node.js project directory to install the official Node.js library: npm install openai
