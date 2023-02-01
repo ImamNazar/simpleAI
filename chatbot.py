@@ -15,7 +15,7 @@ def generate_response(prompt):
     return response["choices"][0]["text"]
 
 def chatbot():
-    print("Hi, I am a chatbot powered by OpenAI. How can I help you today?")
+    print("Hi, I am a chatbot powered by OpenAI and built by Imam and Kanishkar. How can I help you today?")
     while True:
         prompt = input("You: ")
         if prompt.lower() in ["quit", "exit", "bye"]:
